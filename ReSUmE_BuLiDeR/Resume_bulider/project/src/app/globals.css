@@ -1,0 +1,63 @@
+
+.container-fluid{
+    
+overflow-x: hidden;
+} 
+@media screen and (min-width: 200px) and (max-width: 700px) {
+    .webss {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .webss {
+        display: block;
+    }
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 700px) {
+    .savg22 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .savg22 {
+        display: block; 
+    }
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 700px) {
+    .momom {
+        display: none;
+    }
+}
+
+.resumess
+{
+    background-image: url("https://resume4u.io/images/bgWave.webp");
+   min-height: 700px;
+   background-size: 100% 100%;
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 700px) {
+    .resumess {
+        display: none;
+    }
+}
+
+
+
+.zoom{
+    transition: transform .2s; 
+}
+.zoom:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.1); 
+    color: rgb(37, 37, 37);
+  
+  }

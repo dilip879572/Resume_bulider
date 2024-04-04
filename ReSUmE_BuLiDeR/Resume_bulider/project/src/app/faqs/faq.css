@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Raleway', sans-serif;
+    color: #666;
+    font-size: 16px;
+    background: #f9f9f9;
+    line-height: 1.6em;
+  }
+  
+  ul, li {
+    list-style: none;
+  }
+  
+  #container {
+    width: 50%;
+    margin: 2.5rem auto;
+    overflow: auto;
+  }
+  
+  .title {
+    height: 40px;
+    background: #69385C;
+    color: #fff;
+    text-align: center;
+    padding-top: .8rem;
+    font-family: 'Bitter', serif;
+    letter-spacing: .5px;
+  }
+  
+  .faq {
+    border-left: .2px solid #998888;
+    border-right: .2px solid #998888;
+  }
+  
+  .faq li {
+    padding: 1.25rem;
+    border-bottom: .2px solid #998888;
+  }
+  
+  .q {
+    background: #FFFAFA;
+    font-weight: bold;
+    font-size: 120%;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .a {
+    background: #DBDBDB;
+    display: none;
+  }
+  
+  .q h4:after {
+    content: '\002B';
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    font-size: 2rem;
+  }
+  
+  .q.active h4:after {
+      content: '\2013';
+  }
+  
+  @media (max-width: 800px) {
+    #container {
+      width: 90%;
+    }
+  }

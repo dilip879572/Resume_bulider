@@ -1,0 +1,67 @@
+hr.new2 {
+    border: 1px solid #000000;
+  }
+  .vl {
+    position: relative;
+  }
+  
+  .vl::before {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: -12px; /* Adjust the left position as needed */
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+
+    border-radius: 50%; /* Make it a circle */
+  }
+  
+  .vl {
+    border-left: 6px solid rgb(24, 26, 24);
+    min-height: 60px;
+ margin-top:10px ;
+  }
+  
+  .gol
+  {
+    position: absolute;
+    top: -12px;
+    left: -15px; /* Adjust the left position as needed */
+    width: 25px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+  }
+
+
+
+  .vls {
+    position: relative;
+  }
+  
+  .vls::before {
+    content: '';
+    position: absolute;
+    top: -16px;
+    left: -12px; /* Adjust the left position as needed */
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+
+    border-radius: 50%; /* Make it a circle */
+  }
+  
+  .vls {
+    border-left: 6px solid rgb(24, 26, 24);
+min-height: 160px;
+ margin-top:10px ;
+  }
+  
+
+
+  .modal-content{
+    width: 700px;
+    background-color: black;
+  }
+  @media (max-width: 375px) {
+    .modal-content {
+      width: 100%;
+      background-color: black;
+    }}

@@ -1,0 +1,10 @@
+.footer{
+    background-color: black;
+    min-height: 100px;
+
+}
+
+.container-fluid
+{
+    overflow-y: hidden;
+}

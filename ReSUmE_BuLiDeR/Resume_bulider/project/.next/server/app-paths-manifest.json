@@ -1,0 +1,10 @@
+{
+  "/not-found": "app/not-found.js",
+  "/faqs/page": "app/faqs/page.js",
+  "/login/page": "app/login/page.js",
+  "/create/page": "app/create/page.js",
+  "/registration/page": "app/registration/page.js",
+  "/creative/page": "app/creative/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/creative/experience/page": "app/creative/experience/page.js"
+}

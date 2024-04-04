@@ -1,0 +1,13 @@
+/* .input-field
+{
+    height: 50px;
+    width: 100%;
+} */
+
+  
+  @media (max-width: 375px) {
+    .college {
+     width: 100%;
+    }
+  }
+  

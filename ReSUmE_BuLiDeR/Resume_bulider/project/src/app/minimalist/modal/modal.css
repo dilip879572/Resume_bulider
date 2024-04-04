@@ -1,0 +1,47 @@
+.min
+{
+    border-top:1px solid #aaffff ;
+}
+
+.vl {
+    position: relative;
+  }
+  
+  .vl::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -13px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent; /* Adjust the size as needed */
+    border-right: 10px solid transparent; /* Adjust the size as needed */
+    border-bottom: 20px solid black; /* Adjust the size and color as needed */
+
+  }
+  
+  .vl {
+    border-left: 6px solid rgb(24, 26, 24);
+    min-height: 40px;
+   margin-top: 10px;
+  }
+  
+  .gol
+  {
+    position: absolute;
+    top: -10px;
+    left: -15px; /* Adjust the left position as needed */
+    width: 25px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+  }
+
+  .modal-content{
+    width: 700px;
+    background-color: black;
+  }
+  @media (max-width: 375px) {
+    .modal-content {
+      width: 100%;
+      background-color: black;
+    }}
+  

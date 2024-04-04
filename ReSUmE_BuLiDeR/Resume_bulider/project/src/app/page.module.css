@@ -1,0 +1,19 @@
+
+.container-fluid
+{
+    overflow-y: hidden;
+}
+
+
+
+@media screen and (min-width: 375px) and (max-width: 700px) {
+    .webss {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .webss {
+        display: block; /* or any other display property you want for wider screens */
+    }
+}

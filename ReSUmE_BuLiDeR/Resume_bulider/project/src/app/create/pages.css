@@ -1,0 +1,48 @@
+.creates{
+    min-height: 400px;
+    background-color: aliceblue;
+    box-shadow: 3px 6px 4px black;
+}
+
+.boxxs1 {
+    position: relative;
+    background-image: url("https://resume4u.io/TemplatesImg/Professional.webp");
+    background-size: 100% 100%;
+    height: 500px;
+    width: 370px;
+   
+  }
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hover-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(161, 25, 25, 0); /* Initial transparent background */
+    transition: background-color 0.3s ease;
+  }
+  
+  .image-container:hover .hover-button {
+    opacity: 1;
+  }
+  
+  .image-container:hover::before {
+    background-color: rgba(0, 0, 0, 0.5); /* Hovered RGBA color */
+  }
+  

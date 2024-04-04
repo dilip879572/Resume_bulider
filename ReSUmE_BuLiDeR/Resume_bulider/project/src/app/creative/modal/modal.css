@@ -1,0 +1,208 @@
+.min
+{
+    border-top:1px solid #aaffff ;
+}
+
+.vlss {
+    position: relative;
+  }
+  
+  .vlss::before {
+    content: '';
+    position: absolute;
+    left: -7px;
+    width: 10px;
+    height: 10px;
+    background-color:rgb(16, 221, 248);
+    border-radius: 100%;
+    
+  }
+  
+  .vlss {
+    border-left: 4px solid rgb(16, 221, 248);
+transform: translateY(-24px);
+height: 40px;
+
+  }
+  
+  .vll {
+    position: relative;
+  }
+  
+  .vll::before {
+    content: '';
+    position: absolute;
+    left: -7px;
+    width: 10px;
+    height: 10px;
+    background-color:rgb(16, 221, 248);
+border-radius: 100%;
+
+  }
+  
+  .vll {
+    border-left: 4px solid rgb(16, 221, 248);
+height: 30px;
+
+
+  }
+  
+  .vll1 {
+    position: relative;
+  }
+  
+  .vll1::before {
+    content: '';
+    position: absolute;
+    left: -13px;
+  
+
+
+  }
+  
+  .vll1 {
+    border-left: 4px solid rgb(16, 221, 248);
+    height: 60px;
+margin-bottom: -24px;
+
+  }
+
+
+
+
+  .gol
+{
+  position: absolute;
+  top: -20px;
+  left: -11px; /* Adjust the left position as needed */
+  width: 20px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+}
+
+
+.goll
+{
+  position: absolute;
+  top: -20px;
+  left: -16px; /* Adjust the left position as needed */
+  width: 30px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+}
+
+
+
+  .ro {
+   
+    color: white;
+    text-transform: uppercase;
+    top: 240px;
+    position: absolute;
+ left: 40px;
+ font-family:  Georgia;
+ transform: rotate(270deg);
+ transform-origin: 0 0;
+    
+}
+
+
+.ro1
+{ color: white;
+    text-transform: uppercase;
+    top: 240px;
+    position: absolute;
+   left: 60px;
+     font-family:  Georgia;
+    transform: rotate(270deg);
+    transform-origin: 0 0;
+    font-size: 13px;
+}
+
+.vlll {
+  position: relative;
+}
+
+.vlll::before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  width: 10px;
+  height: 10px;
+  background-color:rgb(16, 221, 248);
+border-radius: 100%;
+
+}
+
+.vlll {
+  border-left: 4px solid rgb(16, 221, 248);
+min-width: 30px;
+
+transform: translateY(-50px);
+}
+
+.vllq {
+  position: relative;
+}
+
+.vllq::before {
+  content: '';
+  position: absolute;
+  left: -13px;
+
+
+
+}
+
+.vllq {
+  border-left: 4px solid rgb(16, 221, 248);
+ min-height: 40px;
+margin-bottom: -24px;
+
+}
+
+
+
+
+.golls
+{
+  position: absolute;
+  top: -19px;
+  left: -17px; /* Adjust the left position as needed */
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+}
+.momo
+{
+width: 700px;
+  background-color: black;
+}
+
+
+@media (max-width: 576px) {
+
+  
+   .ro1 {
+    writing-mode: horizontal-tb; /* Change to horizontal writing mode for smaller screens */
+    transform: none; /* Remove rotation */
+    margin-left: 140px; /* Reset left margin */
+    margin-top: -100px; /* Adjust margin-top to bring elements to the top */
+  }
+  .ro{
+    writing-mode: horizontal-tb; /* Change to horizontal writing mode for smaller screens */
+    transform: none; /* Remove rotation */
+    margin-left: 160px; /* Reset left margin */
+    margin-top: -120px; /* Adjust margin-top to bring elements to the top */
+  }
+}
+
+
+
+
+.modal-content{
+  width: 700px;
+  background-color: black;
+}
+@media (max-width: 375px) {
+  .modal-content {
+    width: 100%;
+    background-color: black;
+  }}
